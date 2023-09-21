@@ -52,7 +52,7 @@
  }
 
  span {
-     background-color: rgba(0, 0, 0, 0.1);
+     background-color: rgba(0, 0, 0, 0.0);
      height: 150px;
      width: 760px;
      color: #FFD700;
@@ -62,6 +62,24 @@
      display: inline-block;
      position: absolute;
      top: 40%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+ }
+
+ #quotessym {
+     background-color: rgba(0, 0, 0, 0.0);
+     padding: 10px;
+     border-radius: 5px;
+     position: absolute;
+ }
+
+ button {
+     background-color: rgba(0, 0, 0, 0.7);
+     border-radius: 5px;
+     display: inline-block;
+     position: absolute;
+     font-size: large;
+     top: 60%;
      transform: translate(-50%, -50%);
      text-align: center;
  }

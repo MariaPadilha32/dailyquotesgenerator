@@ -10,18 +10,24 @@
     <script src="assets/js/script.js"></script>
     <title>BlissfulBytes</title>
   </head>
+
   <body>
-    <h1>BlissfulBytes - A Daily Dose of Joyful Wisdom</h1>
+    <h1>BlissfulBytes</h1>
     <div class="quotebox">
-        <!--Quote box-->
-      <div class="text">
-        <i class="fas fa-quote-left"></i>
-        <span>"The journey of a thousand miles begins with one step."</span>
-        <i class="fas fa-quote-right"></i>
-      </div>
-      
+      <!--Quote box-->
+      <span>
+        <div id="quoteDisplay" class="quoteDisplay">
+          <i id="quotessym" class="fas fa-quote-left"></i>
+          <!--Quote to be displayed here-->
+          <i id="quotessym" class="fas fa-quote-right"></i>
+        </div>
+      </span>
+      <button onclick="newQuote()">A Daily Dose of Joyful Wisdom</button>
     </div>
-    <!-- Script -->
-    <script src="script.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/fd409c0820.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
