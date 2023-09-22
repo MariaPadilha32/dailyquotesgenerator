@@ -16,21 +16,43 @@ var quotes = [
     ' "Happiness is a direction, not a place." - Sydney J.Harris',
     ' "The secret of happiness is not in doing what one likes, but in liking what one does." - James M.Barrie',
     ' "Happiness is a journey, not a destination." - Ben Sweetland',
-    ' "The way to happiness: Keep your heart free from hate, your mind from worry. Live simply, expect little, give much. Scatter sunshine, forget self, think of others." - Norman Vincent Peale',
     ' "Happiness is a warm kitten." - Unknown',
     ' "Happiness is the natural flower of duty." - Phillips Brooks ',
+    ' "If you want to be happy, be." - Leo Tolstoy ',
+    ' "The secret to happiness is freedom... And the secret to freedom is courage." - Thucydides',
+    ' "The greatest happiness you can have is knowing that you do not necessarily require happiness." - William Saroyan ',
+    ' "The best way to cheer yourself up is to try to cheer somebody else up." - Mark Twain ',
+    ' "Count your age by friends, not years. Count your life by smiles, not tears." - John Lennon',
+    ' "The happiness of your life depends upon the quality of your thoughts." - Marcus Aurelius',
+    ' "Don\'t cry because it\'s over, smile because it happened." - Dr.Seuss',
+    ' "Be happy for this moment. This moment is your life." - Omar Khayyam',
+    '  "Happiness is not a goal; it is a by-product." - Eleanor Roosevelt',
+    ' "The most important thing is to enjoy your life—to be happy—it\'s all that matters." - Audrey Hepburn',
+    ' "The key to being happy is knowing you have the power to choose what to accept and what to let go." - Dodinsky',
+    ' "Happiness is not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort." - Franklin D.Roosevelt',
+];
+
+var backgroundImages = [
+    '../images/shell.jpg',
+    '../images/bench.jpg',
+    '../images/flower.jpg'
 ];
 /*function newQuote() {
 *    var randomNumber = Math.floor(Math.random() * (quotes.length));
  *   document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
 *}
-*/ 
+*/
 
 function newQuote() {
+    console.log('newQuote() function called');
     var randomNumber = Math.floor(Math.random() * quotes.length);
+    var randomImageNumber = Math.floor(Math.random() * backgroundImages.length);
     var quoteDisplayElements = document.getElementsByClassName('quoteDisplay');
+    var quoteboxElement = document.querySelector('.quotebox');
 
     if (quoteDisplayElements.length > 0) {
         quoteDisplayElements[0].innerHTML = quotes[randomNumber];
+
+        quoteboxElement.style.backgroundImage = 'url(' + backgroundImages[randomImageNumber] + ')';
     }
 }

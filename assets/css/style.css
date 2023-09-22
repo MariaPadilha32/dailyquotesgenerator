@@ -25,7 +25,7 @@
  }
 
  .quotebox {
-     background-image: url('../images/flower.jpg');
+     /*background-image: url('../images/shell.jpg');*/
      background-repeat: no-repeat;
      background-size: cover;
      position: absolute;
@@ -38,8 +38,8 @@
      padding: 20px;
  }
 
- .text {
-     background-color: rgba(0, 0, 0, 0.3);
+ .quoteDisplay {
+     background-color: rgba(0, 0, 0, 0.4);
      padding: 20px;
      height: 300px;
      width: 800px;
@@ -75,11 +75,11 @@
 
  button {
      background-color: rgba(0, 0, 0, 0.7);
-     border-radius: 5px;
+     border-radius: 10px;
      display: inline-block;
      position: absolute;
      font-size: large;
-     top: 60%;
+     top: 50%;
      transform: translate(-50%, -50%);
      text-align: center;
  }
