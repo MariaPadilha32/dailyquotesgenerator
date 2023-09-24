@@ -25,12 +25,12 @@
  }
 
  .quotebox {
-     /*background-image: url('../images/shell.jpg');*/
+     background-image: url('../images/shell.jpg');
      background-repeat: no-repeat;
      background-size: cover;
      position: absolute;
-     height: 800px;
-     width: 1200px;
+     height: 1000px;
+     width: 1400px;
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
@@ -41,8 +41,8 @@
  .quoteDisplay {
      background-color: rgba(0, 0, 0, 0.4);
      padding: 20px;
-     height: 300px;
-     width: 800px;
+     height: 400px;
+     width: 900px;
      position: absolute;
      top: 50%;
      left: 50%;
@@ -73,13 +73,24 @@
      position: absolute;
  }
 
- button {
+ .quote {
      background-color: rgba(0, 0, 0, 0.7);
      border-radius: 10px;
      display: inline-block;
      position: absolute;
      font-size: large;
      top: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+ }
+
+ .joke {
+     background-color: rgba(0, 0, 0, 0.7);
+     border-radius: 10px;
+     display: inline-block;
+     position: absolute;
+     font-size: large;
+     top: 55%;
      transform: translate(-50%, -50%);
      text-align: center;
  }

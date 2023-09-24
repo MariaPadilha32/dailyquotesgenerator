@@ -1,3 +1,4 @@
+//Variable for quotes
 var quotes = [
     ' "The journey of a thousand miles begins with one step." - Lao Tzu',
     ' "Happiness is not something ready-made. It comes from your own actions." - Dalai Lama',
@@ -32,10 +33,60 @@ var quotes = [
     ' "Happiness is not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort." - Franklin D.Roosevelt',
 ];
 
+// VAriable for one line jokes
+var jokes = [
+    'Why don\'t scientists trust atoms? Because they make up everything.',
+    'I used to play piano by ear, but now I use my hands.',
+    'Did you hear about the mathematician who\'s afraid of negative numbers? He\'ll stop at nothing to avoid them.',
+    'Parallel lines have so much in common—it\'s a shame they\'ll never meet.',
+    'How do you organize a space party? You "planet."',
+    'The computer\'s got me on the ropes; it keeps saying, "Press any key to continue," but I can\'t find the "Any" key.',
+    'I\'m reading a book on anti-gravity—it\'s impossible to put down.',
+    'What did the grape say when it got stepped on? Nothing, it just let out a little whine.',
+    'I\'m friends with all electricians; we have great current connections.',
+    'Why don\'t skeletons fight each other? They don\'t have the guts.',
+    'I used to be a baker, but I couldn\'t make enough dough.',
+    'I\'m writing a book on reverse psychology—I hope people don\'t buy it.',
+    'When life gives you melons, you might be dyslexic.',
+    'I\'m so good at sleeping that I can do it with my eyes closed.',
+    'What do you call a bear with no teeth? A gummy bear.',
+    'Why don\'t oysters donate to charity? Because they are shellfish.',
+    'What do you get when you cross a snowman and a vampire? Frostbite.',
+    'I\'m on a whiskey diet. I\'ve lost three days already.',
+    'Why did the scarecrow win an award? Because he was outstanding in his field.',
+    'Why did the bicycle fall over? Because it was two-tired.',
+    'What do you call a dog magician? A labracadabrador.',
+    'Why did the tomato turn red? Because it saw the salad dressing.',
+    'Why did the math book look sad? Because it had too many problems.',
+    'I don\'t trust stairs because they\'re always up to something.',
+    'Did you hear about the claustrophobic astronaut? He just needed a little space.',
+    'Did you hear they arrested the devil? Yeah, they got him on possession.',
+    ' What did one DNA say to the other DNA? “Do these genes make me look fat?”',
+    'My IQ test results came back. They were negative.',
+    'What do you get when you cross a polar bear with a seal? A polar bear. ',
+    'Why can\'t you trust an atom? Because they make up literally everything.',
+    'Why was six afraid of seven? Because seven eight nine.',
+    'What do you call a hippie\'s wife? Mississippi.',
+    'What\'s the difference between an outlaw and an in-law? Outlaws are wanted.',
+    'Scientists have recently discovered a food that greatly reduces sex drive. It\'s called wedding cake.',
+    ' I never knew what happiness was until I got married—and then it was too late.',
+    'What happens to an illegally parked frog? It gets toad away.',
+    'How does the man in the moon get his hair cut? Eclipse it.',
+    'Our child has a great deal of willpower—and even more won\'t power.',
+    'Why aren\'t dogs good dancers? Because they have two left feet.',
+    ' What\'s a dog\'s favorite homework assignment? A lab report.',
+    'Why did the parents not like their son\'s biology teacher? He had skeletons in his closet.',
+    'What did one cannibal say to the other while they were eating a clown? “Does this taste funny to you?”',
+    'What do fish say when they hit a concrete wall? Dam!',
+    'Knock, knock. Who\'s there? Control freak. Now you say, “Control freak who?”',
+    'My father is allergic to cotton. He has pills he can take, but he can\'t get them out of the bottle.',
+    'My wife told me to stop impersonating a flamingo. I had to put my foot down.',
+];
+
 var backgroundImages = [
-    '../images/shell.jpg',
-    '../images/bench.jpg',
-    '../images/flower.jpg'
+    '..assets/images/shell.jpg',
+    '..assets/images/bench.jpg',
+    '..assets/images/flower.jpg'
 ];
 /*function newQuote() {
 *    var randomNumber = Math.floor(Math.random() * (quotes.length));
@@ -53,6 +104,20 @@ function newQuote() {
     if (quoteDisplayElements.length > 0) {
         quoteDisplayElements[0].innerHTML = quotes[randomNumber];
 
-        quoteboxElement.style.backgroundImage = 'url(' + backgroundImages[randomImageNumber] + ')';
+        quoteboxElement.style.backgroundImage = 'url (' + backgroundImages[randomImageNumber] + ')';
+    }
+}
+
+function newJoke() {
+    console.log('newJoke() function called');
+    var randomNumber = Math.floor(Math.random() * jokes.length);
+    var randomImageNumber = Math.floor(Math.random() * backgroundImages.length);
+    var quoteDisplayElements = document.getElementsByClassName('quoteDisplay');
+    var quoteboxElement = document.querySelector('.quotebox');
+
+    if (quoteDisplayElements.length > 0) {
+        quoteDisplayElements[0].innerHTML = jokes[randomNumber];
+
+        quoteboxElement.style.backgroundImage = 'url (' + backgroundImages[randomImageNumber] + ')';
     }
 }
