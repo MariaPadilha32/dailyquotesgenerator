@@ -84,10 +84,24 @@ var jokes = [
 ];
 
 var backgroundImages = [
-    '..assets/images/shell.jpg',
-    '..assets/images/bench.jpg',
-    '..assets/images/flower.jpg'
+    '../assets/images/shell.jpg',
+    '../assets/images/bench.jpg',
+    '../assets/images/flower.jpg',
+    '../assets/images/cloud.png',
+    '../assets/images/coffee.jpg',
+    '../assets/images/donut.jpg',
+    '../assets/images/field.jpg',
+    '../assets/images/happyface.jpg',
+    '../assets/images/justforfun.jpg',
+    '../assets/images/lol.jpg',
+    '../assets/images/neon.jpeg',
+    '../assets/images/rainbow.jpg',
+    '../assets/images/sprinkle.jpg',
+    '../assets/images/tulip.jpg',
+    '../assets/images/umbrella.jpg',
+    '../assets/images/yellowflower.jpg'
 ];
+
 /*function newQuote() {
 *    var randomNumber = Math.floor(Math.random() * (quotes.length));
  *   document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
@@ -104,7 +118,8 @@ function newQuote() {
     if (quoteDisplayElements.length > 0) {
         quoteDisplayElements[0].innerHTML = quotes[randomNumber];
 
-        quoteboxElement.style.backgroundImage = 'url (' + backgroundImages[randomImageNumber] + ')';
+        quoteboxElement.style.backgroundImage = 'url(' + backgroundImages[randomImageNumber] + ')';
+
     }
 }
 
@@ -118,6 +133,7 @@ function newJoke() {
     if (quoteDisplayElements.length > 0) {
         quoteDisplayElements[0].innerHTML = jokes[randomNumber];
 
-        quoteboxElement.style.backgroundImage = 'url (' + backgroundImages[randomImageNumber] + ')';
+        quoteboxElement.style.backgroundImage = 'url(' + backgroundImages[randomImageNumber] + ')';
+
     }
 }

@@ -25,7 +25,7 @@
  }
 
  .quotebox {
-     background-image: url('../images/shell.jpg');
+     background-image: url('../assets/images/placeholder.jpg');
      background-repeat: no-repeat;
      background-size: cover;
      position: absolute;
@@ -66,13 +66,6 @@
      text-align: center;
  }
 
- #quotessym {
-     background-color: rgba(0, 0, 0, 0.0);
-     padding: 10px;
-     border-radius: 5px;
-     position: absolute;
- }
-
  .quote {
      background-color: rgba(0, 0, 0, 0.7);
      border-radius: 10px;
@@ -86,6 +79,7 @@
 
  .joke {
      background-color: rgba(0, 0, 0, 0.7);
+     color: #ACE1AF;
      border-radius: 10px;
      display: inline-block;
      position: absolute;
@@ -93,4 +87,87 @@
      top: 55%;
      transform: translate(-50%, -50%);
      text-align: center;
+ }
+
+ @media (max-width: 800px) {
+     .quotebox {
+         width: 100%;
+         height: auto;
+         margin: 0 auto;
+     }
+
+     .quoteDisplay {
+         width: 90%;
+         height: auto;
+         margin: 0 auto;
+     }
+
+     span {
+         height: 150px;
+         width: 90%;
+     }
+
+     .quote {
+         border-radius: 10px;
+         display: inline-block;
+         position: absolute;
+         font-size: large;
+         top: 50%;
+         transform: translate(-50%, -50%);
+         text-align: center;
+     }
+
+     .joke {
+         background-color: rgba(0, 0, 0, 0.7);
+         color: #ACE1AF;
+         border-radius: 10px;
+         display: inline-block;
+         position: absolute;
+         font-size: large;
+         top: 55%;
+         transform: translate(-50%, -50%);
+         text-align: center;
+     }
+ }
+
+ @media (max-width: 390px) {
+     .quotebox {
+         width: 100%;
+         height: auto;
+         margin: 0 auto;
+     }
+
+     .quoteDisplay {
+         width: 90%;
+         height: auto;
+         margin: 0 auto;
+     }
+
+     span {
+         height: 150px;
+         width: 90%;
+     }
+
+     .quote {
+         border-radius: 10px;
+         display: inline-block;
+         position: absolute;
+         font-size: large;
+         top: 50%;
+         transform: translate(-50%, -50%);
+         text-align: center;
+     }
+
+     .joke {
+         background-color: rgba(0, 0, 0, 0.7);
+         color: #ACE1AF;
+         border-radius: 10px;
+         display: inline-block;
+         position: absolute;
+         font-size: large;
+         top: 55%;
+         transform: translate(-50%, -50%);
+         text-align: center;
+     }
+
  }
