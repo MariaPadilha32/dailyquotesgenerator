@@ -1,5 +1,5 @@
 //Variable for quotes
-var quotes = [
+let quotes = [
     ' "The journey of a thousand miles begins with one step." - Lao Tzu',
     ' "Happiness is not something ready-made. It comes from your own actions." - Dalai Lama',
     ' "Love yourself first, and everything else falls in line." - Lucille Ball',
@@ -34,7 +34,7 @@ var quotes = [
 ];
 
 // VAriable for one line jokes
-var jokes = [
+let jokes = [
     'Why don\'t scientists trust atoms? Because they make up everything.',
     'I used to play piano by ear, but now I use my hands.',
     'Did you hear about the mathematician who\'s afraid of negative numbers? He\'ll stop at nothing to avoid them.',
@@ -83,37 +83,37 @@ var jokes = [
     'My wife told me to stop impersonating a flamingo. I had to put my foot down.',
 ];
 
-var backgroundImages = [
-    '../assets/images/shell.jpg',
-    '../assets/images/bench.jpg',
-    '../assets/images/flower.jpg',
-    '../assets/images/cloud.png',
-    '../assets/images/coffee.jpg',
-    '../assets/images/donut.jpg',
-    '../assets/images/field.jpg',
-    '../assets/images/happyface.jpg',
-    '../assets/images/justforfun.jpg',
-    '../assets/images/lol.jpg',
-    '../assets/images/neon.jpeg',
-    '../assets/images/rainbow.jpg',
-    '../assets/images/sprinkle.jpg',
-    '../assets/images/tulip.jpg',
-    '../assets/images/umbrella.jpg',
-    '../assets/images/yellowflower.jpg'
+let backgroundImages = [
+    './assets/images/shell.jpg',
+    './assets/images/bench.jpg',
+    './assets/images/flower.jpg',
+    './assets/images/cloud.png',
+    './assets/images/coffee.jpg',
+    './assets/images/donut.jpg',
+    './assets/images/field.jpg',
+    './assets/images/happyface.jpg',
+    './assets/images/justforfun.jpg',
+    './assets/images/lol.jpg',
+    './assets/images/neon.jpeg',
+    './assets/images/rainbow.jpg',
+    './assets/images/sprinkle.jpg',
+    './assets/images/tulip.jpg',
+    './assets/images/umbrella.jpg',
+    './assets/images/yellowflower.jpg'
 ];
 
 /*function newQuote() {
-*    var randomNumber = Math.floor(Math.random() * (quotes.length));
+*    let randomNumber = Math.floor(Math.random() * (quotes.length));
  *   document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
 *}
 */
 
 function newQuote() {
     console.log('newQuote() function called');
-    var randomNumber = Math.floor(Math.random() * quotes.length);
-    var randomImageNumber = Math.floor(Math.random() * backgroundImages.length);
-    var quoteDisplayElements = document.getElementsByClassName('quoteDisplay');
-    var quoteboxElement = document.querySelector('.quotebox');
+    let randomNumber = Math.floor(Math.random() * quotes.length);
+    let randomImageNumber = Math.floor(Math.random() * backgroundImages.length);
+    let quoteDisplayElements = document.getElementsByClassName('quoteDisplay');
+    let quoteboxElement = document.querySelector('.quotebox');
 
     if (quoteDisplayElements.length > 0) {
         quoteDisplayElements[0].innerHTML = quotes[randomNumber];
@@ -125,10 +125,10 @@ function newQuote() {
 
 function newJoke() {
     console.log('newJoke() function called');
-    var randomNumber = Math.floor(Math.random() * jokes.length);
-    var randomImageNumber = Math.floor(Math.random() * backgroundImages.length);
-    var quoteDisplayElements = document.getElementsByClassName('quoteDisplay');
-    var quoteboxElement = document.querySelector('.quotebox');
+    let randomNumber = Math.floor(Math.random() * jokes.length);
+    let randomImageNumber = Math.floor(Math.random() * backgroundImages.length);
+    let quoteDisplayElements = document.getElementsByClassName('quoteDisplay');
+    let quoteboxElement = document.querySelector('.quotebox');
 
     if (quoteDisplayElements.length > 0) {
         quoteDisplayElements[0].innerHTML = jokes[randomNumber];

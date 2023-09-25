@@ -11,7 +11,8 @@
  }
 
  body {
-     background: url('../images/shell.jpg') no-repeat center center;
+     background: url('./images/shell.jpg') no-repeat center center;
+     padding-top: 2rem;
      width: 100%;
      height: 100vh;
      padding: 0.7rem;
