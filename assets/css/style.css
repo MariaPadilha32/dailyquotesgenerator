@@ -6,8 +6,7 @@
      padding: 0;
      box-sizing: border-box;
      font-family: 'Montserrat', sans-serif;
-     background-color: #D8BFD8;
-     color: #FFD700;
+     background-color: #D8BFD8
  }
 
  body {
@@ -21,26 +20,39 @@
  h1 {
      height: 1rem;
      width: 100%;
-     padding: 10px 0px;
+     padding: 1.5rem 1.5rem;
      text-align: center;
+     color: #FFD700;
+ }
+
+ #introduction {
+     color: black padding: 0.5rem 0.5rem;
+     width: 60%;
+     margin: 20px auto;
+     text-align: center;
+     position: relative;
+     z-index: 2;
+     font-weight: 200;
  }
 
  .quotebox {
-     background-image: url('../assets/images/placeholder.jpg');
+     background-image: url('./assets/images/placeholder.jpg');
      background-repeat: no-repeat;
      background-size: cover;
-     position: absolute;
-     height: 1000px;
-     width: 1400px;
+     background-position: center center;
+     position: relative;
+     padding-top: 1rem;
+     height: 800px;
+     width: 1200px;
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
      text-align: center;
-     padding: 20px;
  }
 
  .quoteDisplay {
      background-color: rgba(0, 0, 0, 0.4);
+     color: #FFD700;
      padding: 20px;
      height: 400px;
      width: 900px;
@@ -69,6 +81,7 @@
 
  .quote {
      background-color: rgba(0, 0, 0, 0.7);
+     color: #FFD700;
      border-radius: 10px;
      display: inline-block;
      position: absolute;
@@ -80,7 +93,7 @@
 
  .joke {
      background-color: rgba(0, 0, 0, 0.7);
-     color: #ACE1AF;
+     color: #FFD700;
      border-radius: 10px;
      display: inline-block;
      position: absolute;

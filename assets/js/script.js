@@ -1,3 +1,6 @@
+//prompet to interact with the user
+let pick = prompt("What would you like today?");
+
 //Variable for quotes
 let quotes = [
     ' "The journey of a thousand miles begins with one step." - Lao Tzu',
@@ -84,22 +87,22 @@ let jokes = [
 ];
 
 let backgroundImages = [
-    './assets/images/shell.jpg',
-    './assets/images/bench.jpg',
-    './assets/images/flower.jpg',
-    './assets/images/cloud.png',
-    './assets/images/coffee.jpg',
-    './assets/images/donut.jpg',
-    './assets/images/field.jpg',
-    './assets/images/happyface.jpg',
-    './assets/images/justforfun.jpg',
-    './assets/images/lol.jpg',
-    './assets/images/neon.jpeg',
-    './assets/images/rainbow.jpg',
-    './assets/images/sprinkle.jpg',
-    './assets/images/tulip.jpg',
-    './assets/images/umbrella.jpg',
-    './assets/images/yellowflower.jpg'
+    'assets/images/shell.jpg',
+    'assets/images/bench.jpg',
+    'assets/images/flower.jpg',
+    'assets/images/cloud.png',
+    'assets/images/coffee.jpg',
+    'assets/images/donut.jpg',
+    'assets/images/field.jpg',
+    'assets/images/happyface.jpg',
+    'assets/images/justforfun.jpg',
+    'assets/images/lol.jpg',
+    'assets/images/neon.jpeg',
+    'assets/images/rainbow.jpg',
+    'assets/images/sprinkle.jpg',
+    'assets/images/tulip.jpg',
+    'assets/images/umbrella.jpg',
+    'assets/images/yellowflower.jpg'
 ];
 
 /*function newQuote() {
