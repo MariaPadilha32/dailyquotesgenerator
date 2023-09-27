@@ -105,19 +105,14 @@
  }
 
  @media (max-width: 850px) {
-     * {
-         margin: 0;
-         padding: 0;
-     }
-
      h1 {
          padding: 1rem;
      }
 
      #introduction {
          color: black;
-         padding: 0.5rem 0.5rem;
-         width: 80%;
+         padding: 1.5rem 1.5rem;
+         width: 90%;
          height: auto;
          margin: 20px auto;
          text-align: center;
@@ -132,8 +127,8 @@
          background-repeat: no-repeat;
          background-size: cover;
          background-position: center center;
-         position: relative;
-         padding-top: 1rem;
+         position: absolute;
+         padding-top: 3rem;
          max-height: 600px;
          max-width: 750px;
          transform: translate(-50%, -50%);
@@ -177,19 +172,14 @@
  }
 
  @media (max-width: 390px) {
-     * {
-         margin: 0;
-         padding: 0;
-     }
-
      h1 {
          padding: 1rem;
      }
 
      #introduction {
          color: black;
-         padding: 0.5rem 0.5rem;
-         width: 80%;
+         padding: 1.5rem 1.5rem;
+         width: 90%;
          height: auto;
          margin: 20px auto;
          text-align: center;
@@ -204,8 +194,8 @@
          background-repeat: no-repeat;
          background-size: cover;
          background-position: center center;
-         position: relative;
-         padding-top: 1rem;
+         position: absolute;
+         padding-top: 3rem;
          max-height: 350px;
          max-width: 350px;
          transform: translate(-50%, -50%);
