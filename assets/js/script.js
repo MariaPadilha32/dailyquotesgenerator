@@ -1,6 +1,18 @@
 //prompet to interact with the user
 let pick = prompt("What would you like today?");
 
+function showJoyfulWisdom() {
+    document.getElementById("prompt-container").style.display = "none";
+    document.getElementById("joyful-wisdom-section").style.display = "block";
+    document.getElementById("dose-of-fun-section").style.display = "none";
+}
+
+function showDoseOfFun() {
+    document.getElementById("prompt-container").style.display = "none";
+    document.getElementById("joyful-wisdom-section").style.display = "none";
+    document.getElementById("dose-of-fun-section").style.display = "block";
+}
+
 //Variable for quotes
 let quotes = [
     ' "The journey of a thousand miles begins with one step." - Lao Tzu',

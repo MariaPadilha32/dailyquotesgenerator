@@ -18,9 +18,10 @@
  }
 
  h1 {
+     margin: 0;
+     padding: 1.5rem 1.5rem;
      height: 1rem;
      width: 100%;
-     padding: 1.5rem 1.5rem;
      text-align: center;
      color: #FFD700;
  }
@@ -57,7 +58,7 @@
      height: 400px;
      width: 900px;
      position: absolute;
-     top: 50%;
+     top: 40%;
      left: 50%;
      border-radius: 5px;
      transform: translate(-50%, -50%);
@@ -103,17 +104,48 @@
      text-align: center;
  }
 
- @media (max-width: 800px) {
-     .quotebox {
-         width: 100%;
+ @media (max-width: 850px) {
+     * {
+         margin: 0;
+         padding: 0;
+     }
+
+     h1 {
+         padding: 1rem;
+     }
+
+     #introduction {
+         color: black;
+         padding: 0.5rem 0.5rem;
+         width: 80%;
          height: auto;
-         margin: 0 auto;
+         margin: 20px auto;
+         text-align: center;
+         position: relative;
+         z-index: 2;
+         font-weight: 200;
+     }
+
+
+     .quotebox {
+         background-image: url('./assets/images/placeholder.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center center;
+         position: relative;
+         padding-top: 1rem;
+         max-height: 600px;
+         max-width: 750px;
+         transform: translate(-50%, -50%);
+         text-align: center;
      }
 
      .quoteDisplay {
          width: 90%;
          height: auto;
          margin: 0 auto;
+         top: 25%;
+         left: 50%;
      }
 
      span {
@@ -126,7 +158,7 @@
          display: inline-block;
          position: absolute;
          font-size: large;
-         top: 50%;
+         top: 65%;
          transform: translate(-50%, -50%);
          text-align: center;
      }
@@ -138,36 +170,68 @@
          display: inline-block;
          position: absolute;
          font-size: large;
-         top: 55%;
+         top: 70%;
          transform: translate(-50%, -50%);
          text-align: center;
      }
  }
 
  @media (max-width: 390px) {
-     .quotebox {
-         width: 100%;
+     * {
+         margin: 0;
+         padding: 0;
+     }
+
+     h1 {
+         padding: 1rem;
+     }
+
+     #introduction {
+         color: black;
+         padding: 0.5rem 0.5rem;
+         width: 80%;
          height: auto;
-         margin: 0 auto;
+         margin: 20px auto;
+         text-align: center;
+         position: relative;
+         z-index: 2;
+         font-weight: 200;
+     }
+
+
+     .quotebox {
+         background-image: url('./assets/images/placeholder.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center center;
+         position: relative;
+         padding-top: 1rem;
+         max-height: 350px;
+         max-width: 350px;
+         transform: translate(-50%, -50%);
+         text-align: center;
      }
 
      .quoteDisplay {
          width: 90%;
          height: auto;
          margin: 0 auto;
+         top: 25%;
+         left: 50%;
      }
 
      span {
-         height: 150px;
+         height: auto;
          width: 90%;
+         font-size: small;
      }
 
      .quote {
          border-radius: 10px;
          display: inline-block;
          position: absolute;
-         font-size: large;
-         top: 50%;
+         font-size: small;
+         top: 60%;
          transform: translate(-50%, -50%);
          text-align: center;
      }
@@ -178,10 +242,9 @@
          border-radius: 10px;
          display: inline-block;
          position: absolute;
-         font-size: large;
-         top: 55%;
+         font-size: small;
+         top: 70%;
          transform: translate(-50%, -50%);
          text-align: center;
      }
-
  }
