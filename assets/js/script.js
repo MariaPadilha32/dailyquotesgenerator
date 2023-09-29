@@ -98,23 +98,35 @@ let jokes = [
     'My wife told me to stop impersonating a flamingo. I had to put my foot down.',
 ];
 
-let backgroundImages = [
+let backgroundImagesQuotes = [
     'assets/images/shell.jpg',
     'assets/images/bench.jpg',
     'assets/images/flower.jpg',
-    'assets/images/cloud.png',
     'assets/images/coffee.jpg',
-    'assets/images/donut.jpg',
     'assets/images/field.jpg',
-    'assets/images/happyface.jpg',
-    'assets/images/justforfun.jpg',
-    'assets/images/lol.jpg',
-    'assets/images/neon.jpeg',
     'assets/images/rainbow.jpg',
     'assets/images/sprinkle.jpg',
     'assets/images/tulip.jpg',
     'assets/images/umbrella.jpg',
-    'assets/images/yellowflower.jpg'
+    'assets/images/yellowflower.jpg',
+    'assets/images/nature.jpg',
+    'assets/images/wheat.jpg'
+];
+
+let backgroundImagesJokes = [
+    'assets/images/cloud.png',
+    'assets/images/coffee.jpg',
+    'assets/images/donut.jpg',
+    'assets/images/happyface.jpg',
+    'assets/images/justforfun.jpg',
+    'assets/images/lol.jpg',
+    'assets/images/neon.jpeg',
+    'assets/images/sprinkle.jpg',
+    'assets/images/dogs.jpg',
+    'assets/images/laugh.jpg',
+    'assets/images/laughballons.jpg',
+    'assets/images/colorful.jpg',
+    'assets/images/umbrella.jpg',
 ];
 
 /*function newQuote() {
@@ -126,14 +138,14 @@ let backgroundImages = [
 function newQuote() {
     console.log('newQuote() function called');
     let randomNumber = Math.floor(Math.random() * quotes.length);
-    let randomImageNumber = Math.floor(Math.random() * backgroundImages.length);
+    let randomImageNumber = Math.floor(Math.random() * backgroundImagesQuotes.length);
     let quoteDisplayElements = document.getElementsByClassName('quoteDisplay');
     let quoteboxElement = document.querySelector('.quotebox');
 
     if (quoteDisplayElements.length > 0) {
         quoteDisplayElements[0].innerHTML = quotes[randomNumber];
 
-        quoteboxElement.style.backgroundImage = 'url(' + backgroundImages[randomImageNumber] + ')';
+        quoteboxElement.style.backgroundImage = 'url(' + backgroundImagesQuotes[randomImageNumber] + ')';
 
     }
 }
@@ -141,14 +153,14 @@ function newQuote() {
 function newJoke() {
     console.log('newJoke() function called');
     let randomNumber = Math.floor(Math.random() * jokes.length);
-    let randomImageNumber = Math.floor(Math.random() * backgroundImages.length);
+    let randomImageNumber = Math.floor(Math.random() * backgroundImagesJokes.length);
     let quoteDisplayElements = document.getElementsByClassName('quoteDisplay');
     let quoteboxElement = document.querySelector('.quotebox');
 
     if (quoteDisplayElements.length > 0) {
         quoteDisplayElements[0].innerHTML = jokes[randomNumber];
 
-        quoteboxElement.style.backgroundImage = 'url(' + backgroundImages[randomImageNumber] + ')';
+        quoteboxElement.style.backgroundImage = 'url(' + backgroundImagesJokes[randomImageNumber] + ')';
 
     }
 }
