@@ -129,13 +129,39 @@ let backgroundImagesJokes = [
     'assets/images/umbrella.jpg',
 ];
 
-/*function newQuote() {
-*    let randomNumber = Math.floor(Math.random() * (quotes.length));
- *   document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
-*}
-*/
+//TO DO TOMORROW: 1)to fix the toggle/joke/quotes 2) fix media information 3)finishing prompt information
+
+let currentMode = 'quotes'; // Initialize with quotes as the default mode
 
 function newQuote() {
+    currentMode = 'quotes';
+    showQuote();
+    showButtons('joke-button');
+    hideButtons('quote-button');
+}
+
+function newJoke() {
+    currentMode = 'jokes';
+    showJoke();
+    showButtons('quote-button');
+    hideButtons('joke-button');
+}
+
+function showButtons(className) {
+    let buttons = document.getElementsByClassName(className);
+    for (let button of buttons) {
+        button.style.display = 'block';
+    }
+}
+
+function hideButtons(className) {
+    let buttons = document.getElementsByClassName(className);
+    for (let button of buttons) {
+        button.style.display = 'none';
+    }
+}
+
+function showQuote() {
     console.log('newQuote() function called');
     let randomNumber = Math.floor(Math.random() * quotes.length);
     let randomImageNumber = Math.floor(Math.random() * backgroundImagesQuotes.length);
@@ -150,7 +176,7 @@ function newQuote() {
     }
 }
 
-function newJoke() {
+function showJoke() {
     console.log('newJoke() function called');
     let randomNumber = Math.floor(Math.random() * jokes.length);
     let randomImageNumber = Math.floor(Math.random() * backgroundImagesJokes.length);
