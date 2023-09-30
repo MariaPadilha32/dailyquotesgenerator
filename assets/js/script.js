@@ -1,18 +1,3 @@
-//prompt to interact with the user
-/*let pick = prompt("What would you like today?");
-
-function showJoyfulWisdom() {
-    document.getElementById("prompt-container").style.display = "none";
-    document.getElementById("joyful-wisdom-section").style.display = "block";
-    document.getElementById("dose-of-fun-section").style.display = "none";
-}
-
-function showDoseOfFun() {
-    document.getElementById("prompt-container").style.display = "none";
-    document.getElementById("joyful-wisdom-section").style.display = "none";
-    document.getElementById("dose-of-fun-section").style.display = "block";
-}*/
-
 //Variable for quotes
 let quotes = [
     ' "The journey of a thousand miles begins with one step." - Lao Tzu',
@@ -148,16 +133,15 @@ function newJoke() {
 }
 
 function toggleQuotesAndJokes() {
-    console.log(newQuoteButton.id);
-    console.log(newJokeButton.id);
     if (newQuoteButton.id === "active") {
-        console.log(true);
+        console.log("yes");
         newQuoteButton.style.display = "none";
         newJokeButton.style.display = "inline-block";
         newJokeButton.id = "active";
         newQuoteButton.removeAttribute("id");
     }
-    if (newJokeButton.id === "active") {
+    else if (newJokeButton.id === "active") {
+        console.log("correct");
         newQuoteButton.style.display = "inline-block";
         newJokeButton.style.display = "none";
         newJokeButton.removeAttribute("id");
