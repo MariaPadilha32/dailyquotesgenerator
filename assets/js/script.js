@@ -1,4 +1,4 @@
-//prompet to interact with the user
+//prompt to interact with the user
 /*let pick = prompt("What would you like today?");
 
 function showJoyfulWisdom() {
@@ -129,29 +129,54 @@ let backgroundImagesJokes = [
     'assets/images/umbrella.jpg',
 ];
 
+let newQuoteButton = document.querySelector(".quote-button");
+
+let newJokeButton = document.querySelector(".joke-button");
+
 function newQuote() {
     currentMode = 'quotes';
     showQuote();
-    showButtons('joke-button');
-    hideButtons('quote-button');
+    showButtons('quote-button');
+    hideButtons('joke-button');
 }
 
 function newJoke() {
     currentMode = 'jokes';
     showJoke();
-    showButtons('quote-button');
-    hideButtons('joke-button');
+    showButtons('joke-button');
+    hideButtons('quote-button');
+}
+
+function toggleQuotesAndJokes() {
+    console.log(newQuoteButton.id);
+    console.log(newJokeButton.id);
+    if (newQuoteButton.id === "active") {
+        console.log(true);
+        newQuoteButton.style.display = "none";
+        newJokeButton.style.display = "inline-block";
+        newJokeButton.id = "active";
+        newQuoteButton.removeAttribute("id");
+    }
+    if (newJokeButton.id === "active") {
+        newQuoteButton.style.display = "inline-block";
+        newJokeButton.style.display = "none";
+        newJokeButton.removeAttribute("id");
+        newQuoteButton.id = "active";
+    }
 }
 
 function showButtons(className) {
     let buttons = document.getElementsByClassName(className);
+    console.log(className);
     for (let button of buttons) {
-        button.style.display = 'block';
+        button.style.display = 'inline-block';
+        button.id = "active";
     }
 }
 
 function hideButtons(className) {
     let buttons = document.getElementsByClassName(className);
+    console.log(className);
     for (let button of buttons) {
         button.style.display = 'none';
     }
