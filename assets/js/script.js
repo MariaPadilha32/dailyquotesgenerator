@@ -1,5 +1,5 @@
 //prompet to interact with the user
-let pick = prompt("What would you like today?");
+/*let pick = prompt("What would you like today?");
 
 function showJoyfulWisdom() {
     document.getElementById("prompt-container").style.display = "none";
@@ -11,7 +11,7 @@ function showDoseOfFun() {
     document.getElementById("prompt-container").style.display = "none";
     document.getElementById("joyful-wisdom-section").style.display = "none";
     document.getElementById("dose-of-fun-section").style.display = "block";
-}
+}*/
 
 //Variable for quotes
 let quotes = [
@@ -128,10 +128,6 @@ let backgroundImagesJokes = [
     'assets/images/colorful.jpg',
     'assets/images/umbrella.jpg',
 ];
-
-//TO DO TOMORROW: 1)to fix the toggle/joke/quotes 2) fix media information 3)finishing prompt information
-
-let currentMode = 'quotes'; // Initialize with quotes as the default mode
 
 function newQuote() {
     currentMode = 'quotes';
