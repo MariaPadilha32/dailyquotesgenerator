@@ -33,7 +33,7 @@ let quotes = [
     ' "Happiness is not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort." - Franklin D.Roosevelt',
 ];
 
-// VAriable for one line jokes
+// Variable for one line jokes
 let jokes = [
     'Why don\'t scientists trust atoms? Because they make up everything.',
     'I used to play piano by ear, but now I use my hands.',
@@ -83,6 +83,7 @@ let jokes = [
     'My wife told me to stop impersonating a flamingo. I had to put my foot down.',
 ];
 
+// Variable for Images for quotes
 let backgroundImagesQuotes = [
     'assets/images/shell.jpg',
     'assets/images/bench.jpg',
@@ -98,6 +99,7 @@ let backgroundImagesQuotes = [
     'assets/images/wheat.jpg'
 ];
 
+// Variable for Images for jokes
 let backgroundImagesJokes = [
     'assets/images/cloud.png',
     'assets/images/coffee.jpg',
@@ -132,6 +134,7 @@ function newJoke() {
     hideButtons('quote-button');
 }
 
+//function that give the toggle button its function
 function toggleQuotesAndJokes() {
     if (newQuoteButton.id === "active") {
         console.log("yes");
@@ -166,6 +169,7 @@ function hideButtons(className) {
     }
 }
 
+//Function that randonly will choose a quote and Image from the variables
 function showQuote() {
     console.log('newQuote() function called');
     let randomNumber = Math.floor(Math.random() * quotes.length);
@@ -181,6 +185,7 @@ function showQuote() {
     }
 }
 
+//Function that randonly will choose a joke and Image from the variables
 function showJoke() {
     console.log('newJoke() function called');
     let randomNumber = Math.floor(Math.random() * jokes.length);

@@ -12,6 +12,7 @@
   </head>
 
   <body>
+    <!--Introduction-->
     <div id="introduction">
       <h1>BlissfulBytes</h1>
       <p>
@@ -27,21 +28,24 @@
           <!--Quote or joke to be displayed here-->
         </div>
       </span>
-      <button class="quote-button" onclick="newQuote()">
+      <!--Quote button-->
+      <button class="quote-button" onclick="newQuote()" aria-label="Select A Daily Dose of Joyful Wisdom">
         A Daily Dose of Joyful Wisdom
       </button>
-      <button class="joke-button" onclick="newJoke()">
+      <!--Joke buttons-->
+      <button class="joke-button" onclick="newJoke()" aria-label="Select A Daily Dose of Fun">
         A Daily Dose of Fun
       </button>
     </div>
     <!--Toggle button-->
-    <button class="toggle" onclick="toggleQuotesAndJokes()">
+    <button class="toggle" onclick="toggleQuotesAndJokes()" aria-label="Shift Between Insight & Fun">
       Shift Between Insight & Fun
     </button>
-
+    <!--Footer-->
     <footer>
       <p>Thank You for Visiting and Dream Big!</p>
     </footer>
+    <!--Alert with instructions for users-->
     <script>
       alert(
         "Welcome to BlissfulBytes!\n Choose Your Experience:\n 1. 'A Daily Dose of Joyful Wisdom'\n 2. 'A Daily Dose of Fun'\n To Switch Between Them, Click 'Shift Between Insight & Fun.' "
