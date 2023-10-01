@@ -1,4 +1,4 @@
-#BlissfulBytes - Wisdom and Fun
+# BlissfulBytes - Wisdom and Fun
 
 Welcome,
 
@@ -8,7 +8,7 @@ The website is targeted to users searching for a random quote to insipre and/or 
 
 ------------ Image to be added here ----------------
 
-##Live Website
+## Live Website
 
 {BlissfulBytes] (https://mariapadilha32.github.io/dailyquotesgenerator/)
 
@@ -16,7 +16,7 @@ The website is targeted to users searching for a random quote to insipre and/or 
 
 ------------- to be added here -------------------
 
-##UX: User experience
+## UX: User experience
 
 When using Blissful Bytes, we prioritize your user experience to ensure it meets your expectations:
 
@@ -120,11 +120,11 @@ Wireframes were generated using [Balsamiq](https://balsamiq.com/wireframes/?gad=
   - ### Code Validation
    - We thoroughly validated the website to eliminate any syntax errors. The official [W3C validator] ----------link to be add here --------- and [(Jigsaw) validator] ----------link to be add here --------- were employed for this validation process, and any identified errors were promptly addressed and corrected.
 
-####Validation result:
+#### Validation result:
      Errors found: ![Captura de tela 2023-09-30 220121](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/a0c9b087-2a04-46fd-8bec-1efedc621a46)
      Errors corrected:  ------------ Image to be added here ----------------
 
-#####- Lighthouse
+##### - Lighthouse
 The website was tested with Lighthouse in the Dev Tools for performance, accessibility, best practices, and SEO.
 
 The tests were perfomed for an screen size of a Mobile and Desktop.
