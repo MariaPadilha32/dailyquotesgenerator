@@ -6,7 +6,7 @@
      padding: 0;
      box-sizing: border-box;
      font-family: 'Montserrat', sans-serif;
-     background-color: #d8bfdd
+     background-color: #D8BFD8
  }
 
  body {
@@ -15,7 +15,7 @@
  }
 
  #introduction {
-     color: #98FB98;
+     color: #ACE1AF;
      padding: 0.5rem 0.5rem;
      width: 60%;
      margin: 20px auto;
@@ -31,7 +31,7 @@
      margin-bottom: 1rem;
      height: 2rem;
      text-align: center;
-     color: #98FB98;
+     color: #ACE1AF;
  }
 
  .quotebox {
@@ -124,7 +124,7 @@
      width: 100%;
      font-size: large;
      text-align: center;
-     color: #98FB98;
+     color: #ACE1AF;
      position: relative;
      clear: both;
  }
