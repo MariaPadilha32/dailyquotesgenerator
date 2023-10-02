@@ -23,7 +23,7 @@ body {
     text-align: center;
     position: relative;
     z-index: 2;
-    font-weight: 30px;
+    font-weight: 300
 }
 
 h1 {
@@ -36,7 +36,6 @@ h1 {
 }
 
 .quotebox {
-    background-image: url('./assets/images/placeholder.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -46,6 +45,21 @@ h1 {
     width: 1200px;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.quotedisplayholder {
+    background-color: rgba(0, 0, 0, 0);
+    height: 150px;
+    width: 760px;
+    color: #ffd700;
+    font-size: 60px;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    position: absolute;
+    top: 45%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -61,21 +75,6 @@ h1 {
     top: 40%;
     left: 50%;
     border-radius: 5px;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-span {
-    background-color: rgba(0, 0, 0, 0);
-    height: 150px;
-    width: 760px;
-    color: #ffd700;
-    font-size: 60px;
-    padding: 10px;
-    border-radius: 5px;
-    display: inline-block;
-    position: absolute;
-    top: 45%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -150,7 +149,7 @@ footer {
         text-align: center;
         position: relative;
         z-index: 2;
-        font-weight: large;
+        font-weight: 200;
     }
 
     h1 {
@@ -163,7 +162,6 @@ footer {
     }
 
     .quotebox {
-        background-image: url("./assets/images/placeholder.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -252,7 +250,7 @@ footer {
         width: 100%;
         font-size: 16px;
         text-align: center;
-        color: #465E478;
+        color: #465e47;
         clear: both;
     }
 }
@@ -285,7 +283,6 @@ footer {
     }
 
     .quotebox {
-        background-image: url("./assets/images/placeholder.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
