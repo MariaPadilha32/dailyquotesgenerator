@@ -10,7 +10,7 @@ The website is targeted to users searching for a random quote to insipre and/or 
 
 ## Live Website
 
-{BlissfulBytes] (https://mariapadilha32.github.io/dailyquotesgenerator/)
+[BlissfulBytes] (https://mariapadilha32.github.io/dailyquotesgenerator/)
 
 ## Repository 
 
@@ -44,7 +44,7 @@ Create a user-friendly and visually appealing platform.
 Cultivate a sense of positivity and well-being.
 Attract and engage users seeking motivation.
 
-####Unique Selling Proposition (USP):
+#### Unique Selling Proposition (USP):
 Our content is carefully selected to provide genuine value and bring joy to our users' lives.
 
 #### Features and Functionality:
@@ -56,6 +56,7 @@ Option to save favorite quotes and jokes.  (future feature)
 Share content on social media. (future feature)
 
 ## Wireframes
+
 Wireframes were generated using [Balsamiq](https://balsamiq.com/wireframes/?gad=1&gclid=EAIaIQobChMIsf3JpIvsgAMVAwQGAB1yVA5zEAAYAiAAEgKVmPD_BwE) to visualise the structure of the website. The pictures below show the initial ideas for the website's wireframes, as the website was built, changes were made to improve its user-friendliness and quality, while still keeping the main structure intact.
 
   Index.html
@@ -65,9 +66,41 @@ Wireframes were generated using [Balsamiq](https://balsamiq.com/wireframes/?gad=
 
 ## Imagery
 
+  The website is designed to brighten up the user's day, the images are carefully chosen so our collection of inspirational quotes is accompanied by captivating images of serene nature scenes. Each click unveils a new quote paired with a relaxing, peaceful, or lovely photo of nature, tThe images accompanying the jokes are designed to match the fun vibes and will leave you smiling.
+
+Exemple: 
+![nature](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/b3000765-4c27-4c56-95c4-1b792e893388)
+![wheat](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/01c370d3-f289-4b76-be60-ff7db3d64d2b)
+![winery](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/e670e949-1f18-4e83-b794-134b59603e91)
+![dogs](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/2fcdc7f5-816b-4e56-9c34-561fcf26a80d)
+![smiley](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/f209114f-93ef-422a-80b1-38a56d02db56)
+![lol](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/fba4b1c6-f017-4960-90df-7cab200e9878)
+
+The images were downloaded using:
+[Rawpixel](https://www.rawpixel.com/)
+[Stocknap](https://stocksnap.io)
+[Unsplash](https://unsplash.com/images/events)
+
 ## Color Scheme
-  
+  --------------------TO BE UPDATED -------------------------
+The colors were chosen to give the user feeling of calming, positivity and refreshment. 
+![Captura de tela 2023-10-02 075827](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/fc6360a3-be37-4039-9e08-c38c3cae63bc)
+
+### Light Lilac (#D8BFD8):
+Emotion: Elegant, Soft, Dreamy
+Impression: Light lilac is a soft and elegant color that can evoke dreamy and whimsical feelings. The use of this color on the website is to create an atmosphere of sophistication and grace, making users feel like they are in a visually pleasing and calming environment.
+
+### Light Gold (#FFD700):
+Emotion: Luxurious, Warm, Positive
+Impression: Light gold is often associated with wealth and positivity. It can convey a sense of luxury and warmth. The use of this color on the website is to make users feel welcome and uplifted, creating a positive and inviting user experience.
+
+### Celadon Green (#ACE1AF):
+Emotion: Fresh, Natural, Balanced
+Impression: Celadon green is reminiscent of nature and the outdoors. It can convey feelings of freshness and balance. The use of this color on the website is to make users feel refreshed and connected to nature, promoting a sense of well-being and tranquility.
+
 ## Typographia
+
+The used fonts, 'Montserrat, sans-serif;' were carefully chosen to harmonize with our website's concept. These fonts not only contribute to the brand's visual identity but also prioritize ease of readability and comprehension, ensuring that the content is easily accessible and user-friendly.
 
 ## Features 
 
@@ -87,6 +120,7 @@ Wireframes were generated using [Balsamiq](https://balsamiq.com/wireframes/?gad=
 - [Am I responsive?](https://ui.dev/amiresponsive) was used to generate the mockup image showing the website on various screen sizes.
 - The fonts used in the website are imported from [Google Fonts](https://fonts.google.com/).
 - The text was reviewed using [ChatGPT](https://chat.openai.com/).
+- Images were downloaded using [Rawpixel](https://www.rawpixel.com/), [Stocknap](https://stocksnap.io) and [Unsplash](https://unsplash.com/images/events)
 
 ## Testing 
 
