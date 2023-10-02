@@ -325,17 +325,26 @@ let newQuoteButton = document.querySelector(".quote-button");
 let newJokeButton = document.querySelector(".joke-button");
 
 function newQuote() {
+    console.log('newQuote() function called');
     currentMode = 'quotes';
     showQuote();
     showButtons('quote-button');
     hideButtons('joke-button');
+    showQuoteDisplay();
 }
 
 function newJoke() {
+    console.log('newJoke() function called');
     currentMode = 'jokes';
     showJoke();
     showButtons('joke-button');
     hideButtons('quote-button');
+    showQuoteDisplay();
+}
+//test
+function showQuoteDisplay() {
+    let quoteDisplayElement = document.querySelector('.quoteDisplay');
+    quoteDisplayElement.style.display = 'block';
 }
 
 //function that give the toggle button its function
