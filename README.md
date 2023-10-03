@@ -165,12 +165,10 @@ In the future I would like to include:
 
  - As part of this testing, the following were tested and no issues were found:
 
-    - All internal links function as expected
-    - All external links function as expected and they open in new tabs
+    - All buttons function as expected
     - All features function as expected
-    - The form inputs validated - requeired fields are marked by *.
     - Responsiveness to different screen sizes - images, quotes, font sizes, margins, and overall spacing
-    - The website was also manually tested on iPhone 11, iPhone 11, Samsung Galaxy Note 10, Ipad, Yoga Slim7i and on a 23" screen.
+    - The website was also manually tested on iPhone 11, Samsung Galaxy Note 10, Ipad, Yoga Slim7i and on a 23" screen.
 
   ### Responsiveness
   Responsiveness design tests were executed using Chrome Dev Tools and no issues were found. This included the following devices:
@@ -184,17 +182,21 @@ In the future I would like to include:
   - Facebook for Android v407 on Pixel 6
 
   - ### Code Validation
-   - We thoroughly validated the website to eliminate any syntax errors. The official [W3C validator] ----------link to be add here --------- and [(Jigsaw) validator] ----------link to be add here --------- were employed for this validation process, and any identified errors were promptly addressed and corrected.
+   - I thoroughly validated the website to eliminate any syntax errors. The official [W3C validator](https://validator.w3.org/nu/#textarea), [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator) and [JS Hint](https://jshint.com/) were employed for this validation process, and any identified errors were promptly addressed and corrected.
 
 #### Validation result:
-     Errors found: ![Captura de tela 2023-09-30 220121](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/a0c9b087-2a04-46fd-8bec-1efedc621a46)
-     Errors corrected:  ------------ Image to be added here ----------------
+    ![Captura de tela 2023-10-03 194146](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/3461e5a9-9fc3-470d-a50e-54f692a71831)
+![Captura de tela 2023-10-02 161906](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/fbd35880-aedf-4778-af6f-dc3fd863a27d)
+![Captura de tela 2023-10-03 193745](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/183ea224-8257-4751-a447-d608e536b205)
+
 
 ##### - Lighthouse
 The website was tested with Lighthouse in the Dev Tools for performance, accessibility, best practices, and SEO.
 
 The tests were perfomed for an screen size of a Mobile and Desktop.
------------- Image to be added here ----------------
+![Captura de tela 2023-10-03 194307](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/062b1bc3-faa8-4fb1-a62c-cb0892deecf4)
+
+![Captura de tela 2023-10-03 194407](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/d25993a1-6be2-44c2-a3aa-1e8d63e21247)
 
 ## Deployment
 
