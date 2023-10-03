@@ -82,21 +82,21 @@ The images were downloaded using:
 [Unsplash](https://unsplash.com/images/events)
 
 ## Color Scheme
-  --------------------TO BE UPDATED -------------------------
+
 The colors were chosen to give the user feeling of calming, positivity and refreshment. 
-![Captura de tela 2023-10-02 075827](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/fc6360a3-be37-4039-9e08-c38c3cae63bc)
+![pallete](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/d46993a5-780b-4671-ae55-93cc628e915f)
 
-### Light Lilac (#D8BFD8):
-Emotion: Elegant, Soft, Dreamy
-Impression: Light lilac is a soft and elegant color that can evoke dreamy and whimsical feelings. The use of this color on the website is to create an atmosphere of sophistication and grace, making users feel like they are in a visually pleasing and calming environment.
+### Light shade of Lavander (##fef6fe):
+Emotion: Calmness, Elegance, Femininit
+Impression: Light lilac is a soft and elegant color that can evoke dreamy and whimsical feelings. The use of this color on the website is to create a sense of serenity and elegance, making users feel like they are in a visually pleasing and calming environment.
 
-### Light Gold (#FFD700):
+### Light Gold (#FFD70
 Emotion: Luxurious, Warm, Positive
 Impression: Light gold is often associated with wealth and positivity. It can convey a sense of luxury and warmth. The use of this color on the website is to make users feel welcome and uplifted, creating a positive and inviting user experience.
 
-### Celadon Green (#ACE1AF):
-Emotion: Fresh, Natural, Balanced
-Impression: Celadon green is reminiscent of nature and the outdoors. It can convey feelings of freshness and balance. The use of this color on the website is to make users feel refreshed and connected to nature, promoting a sense of well-being and tranquility.
+### Shade of Green (#465e47):
+Emotion: Calm, Sense of depth, Balanced
+Impression: Darker green tones like this one are often associated with nature, growth, and tranquility.  It can convey feelings of balance, harmony, or even eco-friendliness. The use of this color on the website is to make users feel refreshed and connected to nature, promoting a sense of well-being and tranquility.
 
 ## Typographia
 
