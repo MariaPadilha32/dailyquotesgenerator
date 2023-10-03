@@ -185,7 +185,7 @@ In the future I would like to include:
    - I thoroughly validated the website to eliminate any syntax errors. The official [W3C validator](https://validator.w3.org/nu/#textarea), [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator) and [JS Hint](https://jshint.com/) were employed for this validation process, and any identified errors were promptly addressed and corrected.
 
 #### Validation result:
-    ![Captura de tela 2023-10-03 194146](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/3461e5a9-9fc3-470d-a50e-54f692a71831)
+![Captura de tela 2023-10-03 194146](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/ac77c49e-8bc9-4e7e-ae1f-8a2301382fa9)
 ![Captura de tela 2023-10-02 161906](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/fbd35880-aedf-4778-af6f-dc3fd863a27d)
 ![Captura de tela 2023-10-03 193745](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/183ea224-8257-4751-a447-d608e536b205)
 
