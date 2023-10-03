@@ -336,10 +336,10 @@ function newJoke() {
     hideButtons("quote-button");
     showQuoteDisplay();
 }
-//to hide the quote display
+//to show the quote display
 function showQuoteDisplay() {
     let quoteDisplayElement = document.querySelector(".quoteDisplay");
-    quoteDisplayElement.style.display = "block";
+    quoteDisplayElement.style.display = "flex";
 }
 
 //function that give the toggle button its function
