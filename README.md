@@ -24,7 +24,7 @@ When using Blissful Bytes, we prioritize your user experience to ensure it meets
 1. Easy Navigation:
   We understand the importance of smooth navigation. Blissful Bytes is designed to provide an intuitive and user-friendly browsing experience, ensuring you can effortlessly explore the content.
 2. Error-Free Quotes and Jokes:
-  Our aim is to deliver quotes and jokes without any errors, making them easy to read and enjoy. You can seamlessly switch between quotes and jokes without encountering any issues or glitches.
+  Our aim is to deliver quotes and jokes without any errors, making them easy to read and enjoy. You can seamlessly switch between quotes and jokes without experiencing any issues or glitches.
 3. Brightening Your Day:
   Blissful Bytes is here to make your day better. We curate content that is designed to bring a smile to your face and provide a sense of positivity and joy.
 4. Simple and Clean Design:
@@ -71,7 +71,7 @@ Wireframes were generated using [Balsamiq](https://balsamiq.com/wireframes/?gad=
 
 ## Imagery
 
-  The website is designed to brighten up the user's day, the images are carefully chosen so our collection of inspirational quotes is accompanied by captivating images of serene nature scenes. Each click unveils a new quote paired with a relaxing, peaceful, or lovely photo of nature, tThe images accompanying the jokes are designed to match the fun vibes and will leave you smiling.
+  The website is designed to brighten up the user's day, the images are carefully chosen so our collection of inspirational quotes is accompanied by captivating images of serene nature scenes. Each click unveils a new quote paired with a relaxing, peaceful, or lovely photo of nature, the images accompanying the jokes are designed to match the fun vibes and leave you smiling.
 
 Exemple: 
 ![nature](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/b3000765-4c27-4c56-95c4-1b792e893388)
@@ -89,7 +89,7 @@ The images were downloaded using:
 ## Color Scheme
 
 The colors were chosen to give the user feeling of calming, positivity and refreshment. 
-![pallete](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/d46993a5-780b-4671-ae55-93cc628e915f)
+![palette](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/d46993a5-780b-4671-ae55-93cc628e915f)
 
 Furthermore, the colors were tested to insure that is blindcolor safe.
 ![colorblind test](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/9e89455e-a9ca-4e5a-8d12-b58c32028d34)
@@ -209,7 +209,7 @@ During the development of BlissfulBytes, I encountered various challenges and id
 
 1)Inconsistent Image Display: One of the issues I had was that the background images were not displaying as intended. The issue was fixed by removing "../" from "let backgroundImagesQuotes" and "let backgroundImagesJokes".
 
-Toggle button functionality. Initially, when users clicked on the toggle button to switch between displaying quotes and jokes, the expected behavior was not observed. Instead, clicking on the "A Daily Dose of Joyful Wisdom" (quotes) or "A Daily Dose of Fun" (jokes) buttons would automatically switch to the other content type, leading to unintended behavior.
+2)Toggle button functionality. Initially, when users clicked on the toggle button to switch between displaying quotes and jokes, the expected behavior was not observed. Instead, clicking on the "A Daily Dose of Joyful Wisdom" (quotes) or "A Daily Dose of Fun" (jokes) buttons would automatically switch to the other content type, leading to unintended behavior.
 
 Resolution:
 
