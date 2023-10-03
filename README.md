@@ -113,8 +113,32 @@ The used fonts, 'Montserrat, sans-serif;' were carefully chosen to harmonize wit
 ## Features 
 
 ### Existing Features
+All the following features are on the same page: 
+
+1) Introduction Section: This section is like the welcome mat of the website. It gives a quick explanation of what the website is all about – making people happy and giving them some wisdom. I built it using HTML and CSS for the styles.
+     ![Introduction Section](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/e9a4f1ca-d9b1-406c-886f-b3e86b872d97)
+
+2) Quote and Joke Display: A central section where daily quotes or jokes are displayed to users. Users can choose between quotes and jokes. I built it using HTML, CSS for the styles and JavaScript for function.
+     ![Quote and Joke Display](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/bb45c013-14af-49d2-8795-71a8a7cd92a0)
+
+3) Buttons: Two buttons ("A Daily Dose of Joyful Wisdom" and "A Daily Dose of Fun") allow users to switch between displaying quotes and jokes, they work when you click on them. I built it using HTML, CSS for the styles and JavaScript for function.
+     ![Buttons](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/25f49095-6436-4d10-bcb5-9ac05193dc8e)
+
+4) Toggle Button: A button that allows users to switch between displaying quotes and jokes. This adds interactivity to the website, it works when you click on them. I built it using HTML, CSS for the styles and JavaScript for function.
+     ![Toggle Button](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/24e77533-c748-40c0-9d1c-36ffa8d5876a)
+
+5) Footer: A footer section with a message thanking users for visiting. I built it using HTML and CSS for the styles.
+     ![Footer](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/51a84d21-f4a3-45a0-9fd8-0f6c39b7c5a5)
+
+6) Alert with Instructions: An initial alert that provides instructions to users on how to use the website and switch between quotes and jokes. I used HTML to create this alert box with straightforward instructions. It's like a little guide to get started.
+    ![Alert with Instructions](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/4e98fe5b-d058-4a15-9640-6c442b895969)
 
 #### Future Features
+
+In the future I would like to include: 
+1) Copy to Clipboard: you will have the option to easily copy your favorite quotes with the click of a button. Whether you want to save them for later inspiration or share them with friends and family.
+
+2) Share on Social Media: I understand the power of sharing positivity. That's why I would like to work on a feature that allows you to instantly share your favorite quotes or jokes on your social media profiles. With just a click, you will be able to brighten up your online community's day.
 
 ## Technologies Used:
 
