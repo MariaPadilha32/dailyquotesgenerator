@@ -140,6 +140,8 @@ In the future I would like to include:
 
 2) Share on Social Media: I understand the power of sharing positivity. That's why I would like to work on a feature that allows you to instantly share your favorite quotes or jokes on your social media profiles. With just a click, you will be able to brighten up your online community's day.
 
+3) Prevent Repeats: I would like to implement logic to ensure that the same quote doesn't repeat until all the quotes are displayed.
+   
 ## Technologies Used:
 
 - The website was created with [HTML](https://html.spec.whatwg.org/).
@@ -201,6 +203,32 @@ The tests were perfomed for an screen size of a Mobile and Desktop.
 
 ![Captura de tela 2023-10-03 194407](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/d25993a1-6be2-44c2-a3aa-1e8d63e21247)
 
+## Debugging and Unfixed issues
+
+During the development of BlissfulBytes, I encountered various challenges and identified a few issues that I was able to resolve. Here's a summary of the debugging:
+
+1)Inconsistent Image Display: One of the issues I had was that the background images were not displaying as intended. The issue was fixed by removing "../" from "let backgroundImagesQuotes" and "let backgroundImagesJokes".
+
+Toggle button functionality. Initially, when users clicked on the toggle button to switch between displaying quotes and jokes, the expected behavior was not observed. Instead, clicking on the "A Daily Dose of Joyful Wisdom" (quotes) or "A Daily Dose of Fun" (jokes) buttons would automatically switch to the other content type, leading to unintended behavior.
+
+Resolution:
+
+To address this issue and ensure the toggle button functions as intended, several modifications were made to the codebase:
+
+Correction of toggleQuotesAndJokes() Function:
+
+The toggleQuotesAndJokes() function, responsible for toggling between quotes and jokes, was carefully reviewed.
+The logic within this function was revised to accurately identify and switch between the two content types based on the current user selection.
+This correction ensured that the toggle button now functions seamlessly, allowing users to switch between quotes and jokes as intended.
+Adjustments to newQuote() and newJoke() Functions:
+
+The newQuote() and newJoke() functions, which are triggered when users select either "A Daily Dose of Joyful Wisdom" or "A Daily Dose of Fun" buttons, were also refined.
+These functions were adjusted to correctly display the chosen content type and update the user interface accordingly.
+
+![Captura de tela 2023-10-03 220240](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/c79fd82d-0b7b-4f8e-b611-16c934315b26)
+![Captura de tela 2023-10-03 220310](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/798a3593-8caf-4bfb-87e4-e3232c1817fa)
+
+
 ## Deployment
 
 __Deploying a GitHub Repository to GitHub Pages__
@@ -221,3 +249,35 @@ __Creating a Local Clone__
   3) In Gitpod, change your current location to where you want the cloned folder.
   4) Type "git clone," then paste the URL from GitHub.
   5) Hit "Enter" to create the local copy.
+
+## Credits 
+
+### Content 
+
+- The content for Home page and About me were provided in Portuguese by Teacher Ana and translated using Chat GPT. The same content is used as her presentation on her social media.
+- The content used on Offer were provided by Teacher Ana from past projects.
+- README.md was inspired by my own previous Project [MariaPadilha32](https://github.com/MariaPadilha32/pone-teacher_ana/blob/main/README.md)
+
+### Media
+
+- The photos used were downloaded from [Rawpixel](https://www.rawpixel.com/), [Stocknap](https://stocksnap.io) and [Unsplash](https://unsplash.com/images/events).
+
+### Codes
+
+- The Quote box was inspired by a few YouTube tutorials:  [CodingNepal](https://www.youtube.com/watch?v=I0v9ZOY3_0k&t=770s), [GreatStack](https://www.youtube.com/watch?v=FiUVwPYYT5A&t=632s) and [JavaScript Plain English](https://javascript.plainenglish.io/build-a-quote-generator-using-javascript-3c88210f4619).
+- The prompt box was insipred by a Youtube tutorial: [Tony Teaches Tech](https://www.youtube.com/watch?v=bNtyTGBtbK4)
+  
+### Special Thanks
+
+- I would like to show my gratitute to my friend Jaba A. that helped me to understand JavaScript better.
+
+- Special thanks are also due to my classmates on Slack, who have consistently provided their support, assistance, and valuable feedback. Their collective spirit of collaboration has been invaluable.
+
+- Furthermore, I extend a sincere thank you to my mentor[Harry Dhillon](https://github.com/Harry-Leepz), whose guidance has been incredibly helpful during moments of significant challenge. Your support has been instrumental in navigating complex aspects of the project.
+
+## Acknowledgements
+
+This portfolio project was crafted as part of the Full Stack Software Development course at Code Institute. My sincere thanks go to my mentor, [Harry Dhillon](https://github.com/Harry-Leepz), for his invaluable guidance and encouragement. His feedback and advice have greatly improved the project's usability and overall user experience.
+
+I also extend my appreciation to Iris Smok at Code Institute for patiently addressing questions during the weekly meetings and contributing to a richer learning experience.
+
