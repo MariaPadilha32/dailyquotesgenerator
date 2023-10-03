@@ -2,19 +2,20 @@
 
 Welcome,
 
-Blissful Bytes is your source for a daily dose of wisdom and joy by getting random quotes. Explore our world of entertainment and self-care, carefully crafted to brighten your day and nourish your mental well-being. Let us bring a smile to your face and a sense of peace to your mind.
+Blissful Bytes is your source for a daily dose of wisdom and joy by getting random quotes. Explore  the self-care page, carefully crafted to brighten your day and nourish your mental well-being. Let BlissfulBytes bring a smile to your face and a sense of peace to your mind.
 
-The website is targeted to users searching for a random quote to insipre and/or motivate their dady, or someone in need a quick one-liner joke  to laugh and brighten a moment. 
+The website is targeted to users searching for a random quote to insipre and/or motivate their day, or someone in need a quick one-liner joke  to laugh and brighten a moment. 
 
------------- Image to be added here ----------------
+![Captura de tela 2023-10-03 193656](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/37dd21ec-eb6a-410a-bc7d-f2152053fc16)
+
 
 ## Live Website
 
-[BlissfulBytes] (https://mariapadilha32.github.io/dailyquotesgenerator/)
+[BlissfulBytes](https://mariapadilha32.github.io/dailyquotesgenerator/)
 
 ## Repository 
 
-------------- to be added here -------------------
+[Repository](https://github.com/MariaPadilha32/dailyquotesgenerator.git)
 
 ## UX: User experience
 
@@ -33,27 +34,30 @@ When using Blissful Bytes, we prioritize your user experience to ensure it meets
 
 ## Initial concept
 
-The initial idea was to develop a website that would a place for people who want to start their day with a positive mindset, take a break from work or studies, or simply enjoy a moment of laughter. Our mission is to provide a daily dose of joy and wisdom to our users, making their online experience more uplifting and enjoyable.
+My initial idea was to develop a website that would serve as a place for people who want to start their day with a positive mindset, take a break from work or studies, or simply enjoy a moment of laughter. My mission was to provide a daily dose of joy and wisdom to our users, making their online experience more uplifting and enjoyable.
 
-The target audience would be anyone looking for daily motivation, a quick break from studies, someone in need of a smile or a dose of positivity, or someone wanting a break from social media.
+The target audience includes anyone looking for daily motivation, a quick break from studies, someone in need of a smile or a dose of positivity, or anyone wanting a break from social media.
+
+The journey began with the idea of sharing daily quotes, but I didn't stop there. To inject even more joy into our users' day, I introduced a collection of lighthearted jokes as the project unfolded. This expansion was inspired by invaluable input from my mentor, Harry, who suggested the delightful toggle button that allows you to switch between quotes and jokes.
 
 ### Key Objectives:
 
-Provide a daily source of inspiration and humor.
-Create a user-friendly and visually appealing platform.
-Cultivate a sense of positivity and well-being.
-Attract and engage users seeking motivation.
+- Provide a daily source of inspiration and humor.
+- Create a user-friendly and visually appealing platform.
+- Cultivate a sense of positivity and well-being.
+- Attract and engage users seeking motivation.
 
 #### Unique Selling Proposition (USP):
+
 Our content is carefully selected to provide genuine value and bring joy to our users' lives.
 
 #### Features and Functionality:
 
-More than 300 quotes and jokes that will be randomly showed to user.
-Easy navigation between quotes and jokes.
-User-friendly design for seamless browsing.
-Option to save favorite quotes and jokes.  (future feature)
-Share content on social media. (future feature)
+- More than 300 quotes and jokes that will be randomly showed to user.
+- Easy navigation between quotes and jokes.
+- User-friendly design for seamless browsing.
+- Option to save favorite quotes and jokes.  (future feature)
+- Share content on social media. (future feature)
 
 ## Wireframes
 
@@ -61,8 +65,9 @@ Wireframes were generated using [Balsamiq](https://balsamiq.com/wireframes/?gad=
 
   Index.html
   
-![Index.html][Captura de tela 2023-09-14 221558](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/f29ab8d3-682a-4222-b847-be1fa188782e)
-![Index.html][Captura de tela 2023-09-14 221605](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/cea97a06-fb74-4194-b766-095c08144c1e)
+![Big screens](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/29f3ec8b-a1d2-4b2e-9895-9f443a25f855)
+![Small screens](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/6fecca3b-4429-4b5e-bf19-0d1cf9b8ab18)
+
 
 ## Imagery
 
@@ -86,9 +91,12 @@ The images were downloaded using:
 The colors were chosen to give the user feeling of calming, positivity and refreshment. 
 ![pallete](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/d46993a5-780b-4671-ae55-93cc628e915f)
 
+Furthermore, the colors were tested to insure that is blindcolor safe.
+![colorblind test](https://github.com/MariaPadilha32/dailyquotesgenerator/assets/137770409/9e89455e-a9ca-4e5a-8d12-b58c32028d34)
+
 ### Light shade of Lavander (##fef6fe):
 Emotion: Calmness, Elegance, Femininit
-Impression: Light lilac is a soft and elegant color that can evoke dreamy and whimsical feelings. The use of this color on the website is to create a sense of serenity and elegance, making users feel like they are in a visually pleasing and calming environment.
+Impression: Light shade of Lavander is a soft and elegant color that can evoke dreamy and whimsical feelings. The use of this color on the website is to create a sense of serenity and elegance, making users feel like they are in a visually pleasing and calming environment.
 
 ### Light Gold (#FFD70
 Emotion: Luxurious, Warm, Positive
